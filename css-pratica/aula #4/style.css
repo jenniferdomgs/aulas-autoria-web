@@ -1,0 +1,38 @@
+.azul {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+
+}
+
+.verde {
+    width: 350px;
+    height: 120px;
+    background-color: green;
+    position: relative;
+    left: 150px;
+    top: 200px;
+
+}
+
+h1, p {
+    font-family: georgia;
+}
+
+.texto {
+    background-color: lightblue;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    margin: 0px;
+}
+
+.roxo {
+    width: 300px;
+    height: 150px;
+    background-color: purple;
+    position: sticky;
+    top: 0px;
+
+}
