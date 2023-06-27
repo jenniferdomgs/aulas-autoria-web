@@ -1,21 +1,23 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    height: 100%;
+.flex-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: #1C542B;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
-.child {
-    width: 20%;
-    height: 200px;
-    background-color: lightcoral;
-    border: 1px solid black;
+.flex-item {
+    background-color: #46D46C;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
 
