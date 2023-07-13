@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+
+.container-1 {
+    padding: 10px;
+    display: flex;
+    height: 900px;
+    width: 500px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro {
+    color: black;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.ajuste {
+    display: flex;
+    flex-direction: row;
+}
+
+#perfil {
+    height: 50px;
+    border-radius: 100%;
+}
+

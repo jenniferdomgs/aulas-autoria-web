@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    padding: 10px;
+    height: 500px;
+    background-color: red;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
