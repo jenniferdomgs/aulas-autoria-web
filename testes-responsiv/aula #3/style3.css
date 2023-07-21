@@ -1,0 +1,37 @@
+main {
+    display: grid;
+    width: 900px;
+    grid-template-rows: 300px 120px 800px 120px;
+    grid-template-columns: 1fr 3fr;
+    background-color: lightblue;
+    grid-template-areas: "header header"
+    "nav nav"
+    "info servicos"
+    "footer footer";
+
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+}
+
+.info {
+    grid-area: info;
+    background-color: blue;
+}
+
+.servicos {
+    grid-area: servicos;
+    background-color: blueviolet;
+}
+
+footer {
+    grid-area: footer;
+    background-color: green;
+}

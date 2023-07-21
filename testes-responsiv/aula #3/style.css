@@ -1,0 +1,23 @@
+
+.bloco {
+    height: 500px;
+    width: 500px;
+    background-color: lightseagreen;
+}
+
+@media only screen and (max-width: 900px) {
+    .bloco {
+        background-color: lightslategray;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bloco {
+        background-color: black;
+        height: 700px;
+        width: 700px;
+        color: white;
+    }
+}
