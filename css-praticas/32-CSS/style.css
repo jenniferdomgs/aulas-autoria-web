@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
 .containerP {
     display: flex;
     width: 1240px;
@@ -17,6 +21,14 @@ header {
     z-index: 2;
     top: 0;
     width: 100%;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .container-nav {
@@ -64,7 +76,6 @@ h2, h4 {
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    padding: ;
 
 }
 
@@ -81,12 +92,18 @@ h2, h4 {
     justify-content: space-between;
 }
 
-.img3 > img, .img31 > img {
+.img3 > .z > img, .img31 > .z > img {
     padding-top: 35px;
     height: 200px;
     width: 300px;
     padding-left: 15px;
     opacity: 0.9;
+}
+
+.img3, .img31 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .container4 {
@@ -99,10 +116,33 @@ h2, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .cards {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 40px;
+}
+
+.c1, .c2, .c3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: black;
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.f {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.z {
+    display: flex;
+    flex-direction: column;
 }
