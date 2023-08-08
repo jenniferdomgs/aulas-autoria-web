@@ -6,7 +6,7 @@
 }
 
 
-.container-1 {
+.container-nav {
     padding: 10px;
     display: flex;
     height: 900px;
@@ -14,10 +14,6 @@
     background-color: white;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.intro {
-    color: black;
 }
 
 .material-symbols-outlined {
@@ -28,13 +24,7 @@
   'opsz' 48
 }
 
-.ajuste {
+.user, .iconsnav {
     display: flex;
     flex-direction: row;
 }
-
-#perfil {
-    height: 50px;
-    border-radius: 100%;
-}
-
