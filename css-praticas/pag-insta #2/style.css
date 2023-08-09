@@ -1,3 +1,9 @@
+* {
+  margin: 0%;  
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -7,24 +13,63 @@
 
 
 .container-nav {
-    padding: 10px;
     display: flex;
-    height: 900px;
-    width: 500px;
+    width: 470px;
+    height: 930px;
     background-color: white;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+.nav-bar {
+    width: 429px;
+    height: 37px;
+    padding-top: 11px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .user, .iconsnav {
     display: flex;
     flex-direction: row;
+}
+
+.iconsnav {
+    gap: 20px;
+}
+
+.user1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.perfil > img {
+    border-radius: 100%;
+    height: 100px;
+}
+
+.botoes {
+    width: 434px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.botoes > button {
+    background-color: lightgrey;
+    border-radius: 15%;
 }
