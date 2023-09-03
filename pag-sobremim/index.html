@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt/br">
     <head>
-        <title>Jennifer Karoline</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Jennifer Domingos</title>
+        <link href="fontawesome/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="media-query.css">
+        
     </head>
     
     <body>
         <header>
-            <nav>
-                <p><a href="#curiosidades">Curiosidades</a> | <a href="#escolar">Histórico Escolar</a> | <a href="#habilidades">Habilidades</a> | <a href="#contato">Contato</a></p>
+            <nav class="container-nav">
+                <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+                <div id="itens" class="menu">
+                    <a href="#curiosidades">Curiosidades</a>
+                    <a href="index.html"></a>
+                    <a href="#escolar">Histórico Escolar</a>
+                    <a href="#contato">Contato</a>
+                </div>
             </nav>
-            <figure>
-                <img src="./2022-08-03-22-29-41-218.jpg" width="200" height="250">
-                <figcaption>Selfie de Jennifer</figcaption>
-            </figure>
-            <h1>Quem sou eu?</h1>
+            <img class="perfil" src="img/./2022-08-03-22-29-41-218.jpg">
+           
+            
         </header>
-    
+        <script>
+            function mudoutamanho() {
+                if (window.innerWidth >= 768) {
+                    itens.style.display = "block"
+                } else {
+                    itens.style.display = "none"
+                }
+            }
+            function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = "none"
+                } else {
+                    itens.style.display = "block"
+                }
+            }
+        </script>
         <main>
             <section>
                 <article>

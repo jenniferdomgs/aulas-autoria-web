@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 500px;
+    background-color: ;
+}
+
+.container-nav {
+    display: flex;
+    height: 100px;
+}
+
+.perfil {
+    height: 200px;
+    border-radius: 100%;
+}
+
+#menu {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+#menu:hover {
+    color: red;
+}
+
+.menu {
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu > a:link {
+    text-decoration: none;
+}
