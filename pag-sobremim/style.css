@@ -7,12 +7,13 @@
 header {
     display: flex;
     height: 500px;
-    background-color: ;
+    background-color: black;
 }
 
 .container-nav {
     display: flex;
     height: 100px;
+    
 }
 
 .perfil {
@@ -21,7 +22,7 @@ header {
 }
 
 #menu {
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     display: block;
@@ -29,7 +30,7 @@ header {
 }
 
 #menu:hover {
-    color: red;
+    color: blueviolet;
 }
 
 .menu {

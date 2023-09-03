@@ -3,8 +3,8 @@
    Celular: 600px a 768px
    Tablet: 768px a 992px */
 
-@media screen and (min-width: 768px) {
-    #menu {
+   @media screen and (min-width: 768px) {
+    #burguer {
         display: none;
     }
     .menu {

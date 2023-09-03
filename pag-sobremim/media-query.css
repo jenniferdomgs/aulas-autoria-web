@@ -1,9 +1,9 @@
 @media screen and (min-width: 768px) {
-    #burguer {
+    #menu {
         display: none;
     }
     .menu {
-        display: inline-block;
+        display:inline-block;
         padding-right: 4px;
     }
 }
