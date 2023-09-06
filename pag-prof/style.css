@@ -5,12 +5,13 @@
 
 header {
     display: flex;
-    height: 750px;
+    height: 900px;
     width: auto;
-    background-color: #515D73;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: url(img/fundo.png);
+    background-size: cover;
 }
 
 header nav {
@@ -20,22 +21,25 @@ header nav {
     padding-left: 170px;
     justify-content: space-evenly;
     padding-top: 20px;
-    background-color: #9BB1BF;
+    background-color: #507335;
     
 }
 
 .container-nav > a:link {
     text-decoration: none;
+    color: white;
 }
 
+
 .perfil {
-    height: 250px;
+    height: 350px;
     border-radius: 100%;
 }
 
 .item-nav {
     font-size: 25px;
-    color: #9BB1BF;
+    color: white;
+    padding-bottom: 20px;
 }
 
 #button-nav {
@@ -46,8 +50,29 @@ header nav {
     width: 150px;
     height: 50px;
     border-radius: 10px;
-    background-color: #9BB1BF;
+    background-color: #507335;
     border-style: none;
     font-size: 20px;
-    color: #515D73;
+    color: white;
+}
+
+.container-main {
+    height: 750px;
+    width: auto;
+    background-color:  #507335;
+}
+.item-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-intro {
+    height: 750px;
+    width: 700px;
+}
+
+.container-disciplinas {
+    height: 750px;
+    width: auto;
+    background-color: lightcyan;
 }
