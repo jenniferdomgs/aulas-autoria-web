@@ -30,6 +30,9 @@ header nav {
     color: white;
 }
 
+.container-nav > a:visited {
+    color: white;
+}
 
 .perfil {
     height: 350px;
@@ -46,14 +49,13 @@ header nav {
     padding-bottom: 50px;
 }
 
-#button-nav > button {
+#button-nav > a:link > button {
     width: 150px;
     height: 50px;
     border-radius: 10px;
     background-color: #507335;
     border-style: none;
     font-size: 20px;
-    color: white;
 }
 
 .container-main {

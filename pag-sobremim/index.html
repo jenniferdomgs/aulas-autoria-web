@@ -12,37 +12,26 @@
     <body>
         <header>
             <nav class="container-nav">
-                <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
-                <div id="itens" class="menu">
+                <div class="menu">
                     <a href="#curiosidades">Curiosidades |</a>
                     <a href="#habilidades">Habilidades |</a>
                     <a href="#escolar">Histórico Escolar |</a>
                     <a href="#contato">Contato</a>
                 </div>
             </nav>
-            <div class="">
-                <img class="perfil" src="img/./2022-08-03-22-29-41-218.jpg">
+            <div class="item-nav">
+                <figure>
+                    <img class="perfil" src="img/./2022-08-03-22-29-41-218.jpg">
+                </figure>
+                <h1>Jennifer Domingos</h1>
+            </div>
+            <div id="button-nav">
+                <a href="#sobre"><button>Sobre</button></a>
             </div>
         </header>
-        <script>
-            function mudoutamanho() {
-                if (window.innerWidth >= 768) {
-                    itens.style.display = "block"
-                } else {
-                    itens.style.display = "none"
-                }
-            }
-            function clickMenu() {
-                if (itens.style.display == 'block') {
-                    itens.style.display = "none"
-                } else {
-                    itens.style.display = "block"
-                }
-            }
-        </script>
         <main>
             <section>
-                <article>
+                <article id="sobre">
                     <p>Jennifer Karoline, nasci em 03 de Agosto de 2005 (17 anos), meu signo é leão (pra quem acredita) e moro em Ceará-mirim/RN.</p>
             <p>Sou acadêmica em Informática no <a href="https://portal.ifrn.edu.br/" target="_blank">IFRN</a>, e sim, essa página é um teste.</p>
             <p>Além de estudar (que não é pouco), faço musculação, gosto de ler, assistir futebol e curtir momentos com minha família e amigos.</p>
