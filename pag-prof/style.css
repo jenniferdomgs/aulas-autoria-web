@@ -8,9 +8,8 @@ header {
     height: 900px;
     width: auto;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    background-image: url(img/fundo.png);
+    background-image: url(img/fundo-preto.png);
     background-size: cover;
 }
 
@@ -21,17 +20,16 @@ header nav {
     padding-left: 170px;
     justify-content: space-evenly;
     padding-top: 20px;
-    background-color: #507335;
     
 }
 
 .container-nav > a:link {
     text-decoration: none;
-    color: white;
+    color: #A6945D;
 }
 
 .container-nav > a:visited {
-    color: white;
+    color: #A6945D;
 }
 
 .perfil {
@@ -39,42 +37,47 @@ header nav {
     border-radius: 100%;
 }
 
+.itensH {
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    gap: 200px;
+}
+
 .item-nav {
-    font-size: 25px;
-    color: white;
-    padding-bottom: 20px;
+    font-size: 30px;
+    color: #BFB749;
 }
 
-#button-nav {
-    padding-bottom: 50px;
-}
-
-#button-nav > a:link > button {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #507335;
-    border-style: none;
-    font-size: 20px;
-}
 
 .container-main {
     height: 750px;
     width: auto;
-    background-color:  #507335;
+    background-color:  #595136;
 }
 .item-main {
     display: flex;
     justify-content: space-between;
 }
 
-.img-intro {
-    height: 750px;
-    width: 700px;
-}
-
-.container-disciplinas {
+.container-disciplinas, .container-publicacoes {
     height: 750px;
     width: auto;
-    background-color: lightcyan;
+    background-color: #0D0D0D;
+    color:#A6945D;
+}
+
+#buttonH {
+    height: 40px;
+    border-radius: 1px;
+    width: 200px;
+    background-color:#0D0D0D;
+    border-color: #A6945D;
+    color: #BFB749;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #595136;
+    height: 300px;
 }

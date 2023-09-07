@@ -24,9 +24,13 @@ header {
 }
 
 .item-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 25px;
-    color: #D9CEBA;
+    color: #A6945D;
     padding-bottom: 20px;
+    gap: 80px;
 }
 
 .menu {
@@ -44,16 +48,63 @@ header {
     color: #D9CEBA;
 }
 
-#button-nav {
-    padding-bottom: 50px;
+#buttonH {
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+    background-color:#0D0D0D;
+    border-color: #D9CEBA;
+    color: #D9CEBA;
+    cursor: pointer;
 }
 
-#button-nav > a:link > button {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #D9CEBA;
-    border-style: none;
-    font-size: 20px;
-    color: black;
+footer {
+    display: flex;
+    height: 400px;
+    background-color: #0D0D0D; 
+    color: #A6945D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+
+}
+
+main {
+    height: 750px;
+    background-color: #A6945D;
+    color: #0D0D0D;
+}
+
+main > a:link {
+    color: #A6945D;
+    text-decoration: none;
+}
+
+.contato, .email, .redesS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.contato {
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.email, .redesS {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.redesS > a:link {
+    color: #A6945D;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.redesS > a:visited {
+    color: #A6945D;
 }
