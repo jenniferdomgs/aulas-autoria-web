@@ -7,8 +7,7 @@
 header {
     display: flex;
     height: 750px;
-    background-image: url(img/fundo.jpg);
-    background-size: cover;
+    background-color: #2B1821;
     align-items: center;
     flex-direction: column;
 }
@@ -28,57 +27,68 @@ header {
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    color: #A6945D;
+    color: white;
     padding-bottom: 20px;
     gap: 80px;
 }
 
 .menu {
+    display: flex;
     font-size: 20px;
     padding: 10px;
     padding-left: 850px;
+    gap: 20px;
 }
 
 .menu > a:link {
     text-decoration: none;
-    color: #D9CEBA;
+    color: white;
 }
 
 .menu > a:visited {
-    color: #D9CEBA;
+    color: white;
 }
+
+#sobre {
+    height: 700px;
+    background-color: #FD288D;
+    color: white;
+}
+
+#curiosidades, #escolar, #habilidades {
+    height: 700px;
+    background-color: #2B1821;
+    color: #FD288D;
+}
+
 
 #buttonH {
     height: 40px;
-    border-radius: 10px;
+    border-radius: 50px;
     width: 200px;
-    background-color:#0D0D0D;
-    border-color: #D9CEBA;
-    color: #D9CEBA;
+    border-style: none;
+    background-color: #FD288D;
+    color: white;
     cursor: pointer;
 }
 
 footer {
     display: flex;
     height: 400px;
-    background-color: #0D0D0D; 
-    color: #A6945D;
+    background-color: #FD288D; 
+    color: white;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding: 20px;
-
 }
 
-main {
-    height: 750px;
-    background-color: #A6945D;
-    color: #0D0D0D;
+footer > .redesS > a:link {
+    color: white;
 }
 
-main > a:link {
-    color: #A6945D;
-    text-decoration: none;
+footer > .redesS > a:visited {
+    color: white;
 }
 
 .contato, .email, .redesS {
