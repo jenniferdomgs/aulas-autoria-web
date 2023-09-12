@@ -49,6 +49,10 @@ header {
     color: white;
 }
 
+.menu > a:hover {
+    color: #FD288D;
+}
+
 #sobre {
     height: 700px;
     background-color: #FD288D;
