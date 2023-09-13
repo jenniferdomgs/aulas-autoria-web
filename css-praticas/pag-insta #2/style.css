@@ -6,6 +6,7 @@
 
 .container {
     display: flex;
+    height: 1080px;
     justify-content: center;
     background-color: gray;
     padding-top: 10px;
@@ -21,29 +22,28 @@
 }
 
 .nav-bar {
+    height: 37px;
+    width: 429px;
     font-size: 18px;
-    padding: 0 10px;
+    padding-left: 20px;
+    padding-top: 11px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     cursor: pointer;
 }
 
-.user, .iconsnav {
+.iconsnav {
     display: flex;
-    flex-direction: row;
+    gap: 15px;
 }
 
-.iconsnav {
-    gap: 20px;
-}
 
 .user1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 
 .infos {
@@ -53,22 +53,28 @@
     gap: 10px;
 }
 
+.in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .perfil > img {
     border-radius: 100%;
-    height: 100px;
+    height: 130px;
 }
 
 .botoes {
+    width: 434px;
+    height: 40px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 5px;
+    padding-left: 20px;
 }
 
 .botoes > button {
-    width: 180px;
-    height: 30px;
+    width: 190px;
+    height: 40px;
     background-color: lightgrey;
     border: lightgrey 2px solid;
     border-radius: 5px;
@@ -76,34 +82,37 @@
 }
 
 .botoes > #ub {
-    width: 60px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .destaques {
     display: flex;
-    padding-top: 8px;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 21px;
     width: 474px;
     height: 78px;
-    gap: 10px;
+    gap: 5px;
 }
 .d {
     display: flex;
+    height: 78px;
+    width: 78px;
     align-items: center;
     flex-direction: column;
 }
 
 .d > img {
     border-radius: 100%;
-    height: 60px;
+    height: 78px;
+    width: 78px;
 }
 
 .d > p {
     font-size: 15px;
 }
 
-.emojisfeed {
+.emojisfeed, .emojisfeed > img {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 25px;
@@ -112,7 +121,12 @@
     align-items: center;
 }
 
-.emojisfeed > i {
+.emojisfeed > img {
+    height: 28px;
+
+}
+
+.emojisfeed > i, .emojisfeed > img {
     cursor: pointer;
 }
 
