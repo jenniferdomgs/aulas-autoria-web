@@ -2,6 +2,7 @@
   margin: 0%;  
   padding: 0%;
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -24,7 +25,7 @@
 .nav-bar {
     height: 37px;
     width: 429px;
-    font-size: 18px;
+    font-size: 26px;
     padding-left: 20px;
     padding-top: 11px;
     display: flex;
@@ -35,12 +36,13 @@
 .iconsnav {
     display: flex;
     gap: 15px;
+    height: 26px;
+    width: 26px;
 }
 
 
 .user1 {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
@@ -48,9 +50,9 @@
 
 .infos {
     display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    gap: 10px;
+    height: 31px;
+    width: 265px;
+    justify-content: space-around;
 }
 
 .in {
@@ -59,17 +61,24 @@
     align-items: center;
 }
 
+.perfil {
+    width: 169px;
+    height: 130px;
+    font-size: 14px;
+}
+
 .perfil > img {
     border-radius: 100%;
-    height: 130px;
+    height: 104px;
+    width: 104px;
 }
 
 .botoes {
     width: 434px;
     height: 40px;
     display: flex;
-    gap: 5px;
     padding-left: 20px;
+    gap: 5px;
 }
 
 .botoes > button {
@@ -92,8 +101,14 @@
     padding-left: 21px;
     width: 474px;
     height: 78px;
-    gap: 5px;
+    gap: 18px;
+    overflow-y: overlay;
 }
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
 .d {
     display: flex;
     height: 78px;
@@ -109,21 +124,27 @@
 }
 
 .d > p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.emojisfeed, .emojisfeed > img {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 25px;
+.emojisfeed {
+    height: 24px;
+    width: 340px;
+    padding-top: 70px;
+    padding-left: 65px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 110px;
+    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+#icF {
+    font-size: 24px;
+}
 .emojisfeed > img {
-    height: 28px;
-
+    height: 24px;
+    width: 24px;
 }
 
 .emojisfeed > i, .emojisfeed > img {
@@ -132,12 +153,23 @@
 
 .feed {
     width: 470px;
+    height: 471px;
+    padding-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 156px);
-    gap: 1px;
+    grid-template-columns: repeat(3, 155px);
+    gap: 2.5px;
 
 }
 
 .feed > img {
-    width: 156px;
+    width: 155px;
+    height: 155px;
+}
+
+footer {
+    display: flex;
+    height: 68px;
+    width: 469px;
+    padding-top: 20px;
+    justify-content: center;
 }
