@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Bartleen Script";
+    src: url(fontes/Bartleen\ Script.ttf);
+}
+
+@font-face {
+    font-family: "Louis George Cafe Bold";
+    src: url(fontes/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+p, ol, a:link, table, button {
+    font-family: "Louis George Cafe Bold";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bartleen Script";
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
 header {
     display: flex;
     height: 750px;
@@ -15,6 +38,15 @@ header {
 .container-nav {
     display: flex;
     height: 100px; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 80px;
+    border-radius: 100%;
+    padding-left: 30px;
 }
 
 .perfil {
@@ -22,22 +54,37 @@ header {
     border-radius: 100%;
 }
 
-.item-nav {
+#nb {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 200px;
+}
+
+.item-nav {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
     font-size: 25px;
     color: white;
-    padding-bottom: 20px;
-    gap: 80px;
+    align-items: center;
+    gap: 100px;
 }
 
 .menu {
     display: flex;
-    font-size: 20px;
-    padding: 10px;
-    padding-left: 850px;
+    font-size: 18px;
+    padding-right: 20px;
     gap: 20px;
+}
+
+#if {
+    text-decoration: none;
+    color: white;
+}
+
+#if:visited {
+    color: white;
 }
 
 .menu > a:link {
@@ -55,7 +102,8 @@ header {
 
 #sobre {
     height: 700px;
-    background-color: #FD288D;
+    background-image: url(img/fundo1.jpg);
+    background-size: cover;
     color: white;
 }
 
@@ -122,3 +170,22 @@ footer > .redesS > a:visited {
 .redesS > a:visited {
     color: #A6945D;
 }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.textosm {
+    display: flex;
+    height: 450px;
+    width: 500px;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
