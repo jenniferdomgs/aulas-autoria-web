@@ -110,17 +110,45 @@ header {
     color: white;
 }
 
-#curiosidades, #escolar, #habilidades {
+#curiosidades {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 50px;
     gap: 50px;
     height: 700px;
+    width: 100%;
     background-color: #2B1821;
     color: #FD288D;
 }
 
+#causo {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-color: #2B1821;
+    color: #FD288D;
+    justify-content: center;
+}
+
+.c1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 900px;
+}
+
+#habilidades {
+    height: 700px;
+    display: flex;
+}
+
+#escolar {
+    height: 700px;
+    display: flex;
+}
 
 #buttonH {
     height: 50px;
@@ -218,4 +246,10 @@ footer > .redesS > a:visited {
 .c > img {
     height: 260px;
     border-radius: 100%;
+}
+
+.separa {
+    height: 5px;
+    width: 100%;
+    background-color: #FD288D;
 }
