@@ -16,6 +16,7 @@
 
 p, ol, a:link, table, button {
     font-family: "Louis George Cafe Bold";
+    font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +30,8 @@ h1 {
 
 header {
     display: flex;
-    height: 750px;
+    height: 900px;
+    width: auto;
     background-color: #2B1821;
     align-items: center;
     flex-direction: column;
@@ -50,14 +52,14 @@ header {
 }
 
 .perfil {
-    height: 350px;
+    height: 450px;
     border-radius: 100%;
 }
 
 #nb {
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 100px;
 }
 
 .item-nav {
@@ -69,6 +71,7 @@ header {
     color: white;
     align-items: center;
     gap: 100px;
+    padding-top: 150px;
 }
 
 .menu {
@@ -102,12 +105,17 @@ header {
 
 #sobre {
     height: 700px;
-    background-image: url(img/fundo1.jpg);
+    background-image: url(img/fundo2.jpg);
     background-size: cover;
     color: white;
 }
 
 #curiosidades, #escolar, #habilidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 50px;
     height: 700px;
     background-color: #2B1821;
     color: #FD288D;
@@ -115,13 +123,18 @@ header {
 
 
 #buttonH {
-    height: 40px;
+    height: 50px;
     border-radius: 50px;
     width: 200px;
     border-style: none;
     background-color: #FD288D;
     color: white;
     cursor: pointer;
+}
+
+#buttonH:hover {
+    background-color: white;
+    color: #FD288D;
 }
 
 footer {
@@ -173,11 +186,10 @@ footer > .redesS > a:visited {
 
 .intro {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 20px;
-    gap: 50px;
+    padding-top: 120px;
+    gap: 400px;
 }
 
 .textosm {
@@ -189,3 +201,21 @@ footer > .redesS > a:visited {
     flex-direction: column;
 }
 
+.curis {
+    display: flex;
+    justify-content: center;
+}
+
+.c {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.c > img {
+    height: 260px;
+    border-radius: 100%;
+}

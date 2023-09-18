@@ -18,13 +18,20 @@ p, ol, a:link, table, button {
     font-family: "Louis George Cafe Bold";
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h4, h3, h5, h6 {
     font-family: "Bartleen Script";
     font-size: 30px;
 }
 
+.item-nav > h4 {
+    font-size: 30px;
+    font-family: "Louis George Cafe Bold";
+    padding-left: 10px;
+}
+
 h1 {
-    font-size: 50px;
+    font-family: "Bartleen Script";
+    font-size: 70px;
 }
 
 header {
@@ -67,6 +74,10 @@ header nav {
     
 }
 
+.links> a:hover {
+    color: #FABB17;
+}
+
 .links > a:visited {
     color: #231F20;
 }
@@ -80,7 +91,7 @@ header nav {
 .itensH {
     display: flex;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 120px;
     gap: 200px;
 }
 
@@ -103,7 +114,7 @@ header nav {
 
 .item-main {
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .container-disciplinas {
@@ -139,6 +150,12 @@ header nav {
     cursor: pointer;
     font-size: 25px;
     margin-top: 30px;
+}
+
+#buttonH:hover {
+    color: #E7DFD8;
+    background-color: #231F20;
+    border-color: #E7DFD8;
 }
 
 footer {
