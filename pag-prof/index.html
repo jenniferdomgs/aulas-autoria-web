@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruna Raissa - Física</title>
     <link rel="stylesheet" href="style.css">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
         <div class="itensH">
             <div class="item-nav">
                 <h1 class="fontP">Bruna Raissa</h1>
-                <h4>(Professora de Física)</h4>
+                <h3>(Professora de Física)</h3>
                 <a href="#intro"><button id="buttonH">Sobre</button></a>
             </div>
             <figure>
@@ -33,39 +34,49 @@
         </div>
     </header>
     <main class="container-main">
-        <section class="item-main">
-            <article id="intro">
-                <div class="sobre">
-                    <h3>Sobre</h3>
-                    <p>Bruna Raíssa Gomes dos Santos Batista, professora de Física no IFRN, atualmente atuando no campus Ceará-mirim.</p>
-                </div>
-                <div id="areasdeint" class="AI">
-                    <h3>Áreas de interesse</h3>
-                    <ul>
-                        <li>Ensino de Física e Jogos</li>
-                        <li>Ensino de Astronomia e Astronáutica</li>
-                        <li>Divulgação Científica</li>
-                    </ul>
-                </div>
-            </article>
+        <section id="intro">
+            <h3>Sobre</h3>
+            <p>Bruna Raíssa Gomes dos Santos Batista, professora de Física no IFRN, atualmente atuando no campus Ceará-mirim.</p>
         </section>
     </main>
+
+    <section id="areasdeint">
+        <h3>Áreas de interesse</h3>
+        <div class="AI">
+            <div class="ai">
+                <img src="">
+                <p>Ensino de Física e Jogos</p>
+            </div>
+            <div class="ai">
+                <img src="img/AI-2.jpg">
+                <p>Ensino de Astronomia e Astronáutica</p>
+            </div>
+            <div class="ai">
+                <img src="img/AI-3.jpg">
+                <p>Divulgação Científica</p>
+            </div>
+        </div>
+    </section>
+
     <section id="educacao">
         <h3>Educação</h3>
-        <p>Licenciada em Física pelo IFRN Campus Caicó e Mestra em Ensino de Ciências Naturais e Matemática pela UFRN.</p>
+        <p>Licenciada em Física - IFRN</p>
+        <p>Mestra em Ensino de Ciências Naturais e Matemática - UFRN</p>
     </section>
-    <section id="disciplinas" class="container-disciplinas">
+
+    <div class="separa"></div>
+
+    <section id="disciplinas" >
         <div class="dc">
             <h3>Disciplinas</h3>
-            <P>Disciplinas ministradas no semestre atual (2023.1):
-                Física II (turno vespertino)
-                Eletromagnetismo Básico I (turno noturno)
-            </P>
+            <p><i class="fa-solid fa-user-graduate"></i> - Ministradas no atual semestre <br><br> (2023.2) no campus Ceará-mirim do IFRN:</p>
+            <div class="mat"><p><i class="fa-solid fa-atom"></i> Física II (turno vespertino)</p></div>
+            <div class="mat"><p><i class="fa-solid fa-atom"></i> Eletromagnetismo Básico I (turno noturno)</p></div>
         </div>
         <div class="tb">
             <table>
                 <thead>
-                    <th><h4>Carga Horária - IFCM (23.1)</h4></th>
+                    <th>Carga Horária - IFCM (23.1)</th>
                 </thead>
                 <tbody>
                     <tr>
@@ -128,15 +139,19 @@
             </table>
         </div>
     </section>
-    <section id="publicacoes" class="container-publicacoes">
+
+    <section id="publicacoes">
         <h3>Publicações</h3>
-        <figure>
-            <figcaption>Canal da Professora no Youtube: <a href="https://www.youtube.com/@CasaldaFisica" target="_blank">Casal da Física</a></figcaption>
-        </figure>
+        <div class="pub"><a href="https://www.youtube.com/@CasaldaFisica" target="_blank"><i class="fa-brands fa-youtube"></i> Casal da Física</a></div>
+    
     </section>
+
     <footer id="contato">
         <h3>Contato</h3>
-        <p><strong>Email escolar:</strong> <a href=".">bruna.raissa@escolar.ifrn.edu.br</a></p>
+        <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email Escolar: bruna.raissa@escolar.ifrn.edu.br</p>
+        </div>
     </footer>
 </body>
 </html>
