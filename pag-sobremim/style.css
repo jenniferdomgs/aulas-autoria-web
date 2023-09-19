@@ -120,34 +120,47 @@ header {
     width: 100%;
     background-color: #2B1821;
     color: #FD288D;
+    text-align: center;
 }
 
 #causo {
     height: 700px;
     width: 100%;
     display: flex;
-    background-color: #2B1821;
+    background-image: url(img/fundo2.png);
+    background-size: cover;
     color: #FD288D;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.c1 > p {
+    font-size: 30px;
 }
 
 .c1 {
     flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
     height: 100%;
     width: 900px;
+    gap: 50px;
+
 }
 
 #habilidades {
     height: 700px;
     display: flex;
+    flex-direction: column;
 }
 
 #escolar {
     height: 700px;
     display: flex;
+    background-color: #FD288D;
+    color: white;
 }
 
 #buttonH {

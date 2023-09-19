@@ -75,7 +75,7 @@ header nav {
     
 }
 
-.links> a:hover {
+.links > a:hover {
     color: #FABB17;
 }
 
@@ -137,6 +137,7 @@ header nav {
     color:#E7DFD8;
     gap: 100px;
     align-items: flex-start;
+    justify-content: center;
     padding-left: 50px;
     padding-top: 50px;
 }
@@ -260,6 +261,7 @@ footer {
     align-items: center;
     gap: 50px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .AI {
@@ -279,4 +281,26 @@ footer {
 .ai > img {
     height: 260px;
     border-radius: 100%;
+}
+
+.tb table{
+    border: solid 1px #FABB17;
+    border-collapse:collapse ;
+    width: 100%;
+
+}
+
+.tb th, td{
+    border: 1px solid #FABB17;
+    padding: 8px;
+
+}
+
+.tb thead{
+    background-color:#231F20;
+    color: #FABB17;
+}
+
+.tb{
+    padding-top: 80px;
 }
