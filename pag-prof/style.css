@@ -75,7 +75,7 @@ header nav {
     
 }
 
-.links> a:hover {
+.links > a:hover {
     color: #FABB17;
 }
 
@@ -114,14 +114,17 @@ header nav {
 }
 
 #intro {
-    height: 400px;
+    height: auto;
     width: 100%;
     display: flex;
     font-size: 20px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
     gap: 50px;
+    text-align: center;
+    padding: 20px;
 }
 
 .item-main {
@@ -137,6 +140,7 @@ header nav {
     color:#E7DFD8;
     gap: 100px;
     align-items: flex-start;
+    justify-content: center;
     padding-left: 50px;
     padding-top: 50px;
 }
@@ -228,6 +232,7 @@ footer {
 .email {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 #educacao {
@@ -236,12 +241,24 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     padding-left: 50px;
     gap: 50px;
     padding-top: 50px;
     background-image: url(img/fundo2.png);
     background-size: cover;
     color: #E7DFD8;
+}
+
+#Ediv {
+    display: flex;
+    height: 80px;
+    width: 450px;
+    background-color: #FABB17;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #231F20;
 }
 
 .separa {
@@ -260,11 +277,13 @@ footer {
     align-items: center;
     gap: 50px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .AI {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .ai {
@@ -279,4 +298,26 @@ footer {
 .ai > img {
     height: 260px;
     border-radius: 100%;
+}
+
+.tb table{
+    border: solid 1px #FABB17;
+    border-collapse:collapse ;
+    width: 100%;
+
+}
+
+.tb th, td{
+    border: 1px solid #FABB17;
+    padding: 8px;
+
+}
+
+.tb thead{
+    background-color:#231F20;
+    color: #FABB17;
+}
+
+.tb{
+    padding-top: 80px;
 }

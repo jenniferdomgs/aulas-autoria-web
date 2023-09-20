@@ -1,5 +1,153 @@
-@media screen and (max-width: 1200px) {
-    header, .container-main, .container-disciplinas, .container-publicacoes, footer {
-        width: 1000px;
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        width: 100%;
+    }
+    header nav {
+        height: auto;
+        padding-top: 30px;
+        flex-direction: row;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .imgH {
+        margin-left: 10px;
+        padding-top: 0%;
+    }
+
+    .imgH > img {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    .links {
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .links > a:link {
+        font-size: 12px;
+    }
+
+    .perfil {
+        height: 200px;
+    }
+
+    .itensH {
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .item-nav > h1 {
+        font-size: 40px;
+    }
+
+    .item-nav > h3 {
+        font-size: 20px;
+    }
+
+    #buttonH {
+        height: 30px;
+        width: 110px;
+    }
+
+    .container-main {
+        height: auto;
+        width: 100%;
+        background-image: none;
+        background-color: #231F20;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #intro {
+        padding: 10px;
+    }
+
+    #areasdeint {
+        height: auto;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .ai {
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .ai > img {
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .ai > p {
+        font-size: 18px;
+    }
+
+    #educacao {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        background-image: none;
+        background-color: #231F20;
+        padding-bottom: 50px;
+    }
+
+    #educacao > p {
+        font-size: 18px;
+    }
+
+    #Ediv {
+        height: 110px;
+        width: 210px;
+        padding: 10px;
+    }
+
+    #disciplinas {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    #disciplinas > p {
+        font-size: 18px;
+    }
+
+    .tb {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+    .tb > table {
+        height: auto;
+        width: 100%;
+    }
+
+    #publicacoes {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    footer {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .email {
+        padding-bottom: 50px;
+    }
+    
+    .email > p {
+        font-size: 15px;
     }
 }
