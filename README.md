@@ -1,2 +1,2 @@
 # aulas-autoria-web
-• Repositório de práticas da matéria de Autoria Web - IFRN, 2023.
+• Repositório de práticas da matéria Autoria Web - IFRN, 2023.
