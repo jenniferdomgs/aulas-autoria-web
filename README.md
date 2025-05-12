@@ -1,2 +1,2 @@
-# aulas-autoria-web
-• Práticas de Autoria Web - IFRN, 2023.
+> Práticas & Exercícios
+## aulas-autoria-web
